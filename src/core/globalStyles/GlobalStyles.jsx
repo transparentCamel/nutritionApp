@@ -16,7 +16,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: inter;
-    
+    * {
+        display:flex;
+    }
     h1 {
         font-size: ${theme.fontSizes.h1};
     }
@@ -33,10 +35,22 @@ body {
         font-size: ${theme.fontSizes.title02}; 
     }
     p { 
-    font-size: ${theme.fontSizes.paragraph};
+        font-size: ${theme.fontSizes.paragraph};
 
+    }
+    .flexCenter {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .row {
+        display:flex;
+        flex-direction:row;
+    }
+    .column {
+        display:flex;
+        flex-direction:column;
     }
    
 }
-
 `;
