@@ -6,6 +6,8 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles />
+      <div></div>
+      <div></div>
     </ThemeProvider>
   );
 }
