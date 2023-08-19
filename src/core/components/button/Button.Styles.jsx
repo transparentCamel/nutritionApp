@@ -11,4 +11,5 @@ export const ButtonStyles = styled.button`
   font-size: 18px;
   font-weight: bold;
   border-radius: 4px;
+  cursor: pointer;
 `;

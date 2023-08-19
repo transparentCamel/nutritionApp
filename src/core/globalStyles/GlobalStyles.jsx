@@ -41,11 +41,7 @@ body {
         font-size: ${theme.fontSizes.paragraph};
 
     }
-    .flexCenter {
-        display:flex;
-        justify-content: center;
-        align-items: center;
-    }
+    
     .row {
         display:flex;
         flex-direction:row;
