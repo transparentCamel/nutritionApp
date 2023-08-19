@@ -5,7 +5,7 @@ export const FooterStyles = styled.footer`
   color: ${theme.colors.white};
   align-items: center;
   justify-content: center;
-  padding: 64px 64px;
+  padding: 64px 128px;
 
   div {
     span {
