@@ -25,6 +25,18 @@ export const FooterStyles = styled.footer`
     margin-left: 128px;
   }
   div:nth-child(1) {
+    gap: 32px;
     max-width: 480px;
+    h3 {
+      margin: 0px;
+    }
+    .svgContainer {
+      gap: 16px;
+      margin: 0px;
+      img {
+        cursor: pointer;
+        width: 32px;
+      }
+    }
   }
 `;
