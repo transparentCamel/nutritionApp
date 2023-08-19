@@ -16,6 +16,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: inter;
+    #root {
+        flex-direction:column;
+    }
     * {
         display:flex;
     }

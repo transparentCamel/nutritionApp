@@ -7,7 +7,10 @@ export default function Header() {
   return (
     <HeaderStyles className='row'>
       <div>
-        <img src={fruitTree} alt='Logo' />
+        <span>
+          <img src={fruitTree} alt='Logo' />
+        </span>
+
         <p>FRUITition</p>
       </div>
       <Nav />
