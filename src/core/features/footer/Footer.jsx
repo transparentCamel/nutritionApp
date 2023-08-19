@@ -1,12 +1,20 @@
 import React from 'react';
 import { FooterStyles } from './Footer.Styles';
-
+import instagram from '../../../assets/svg/instagram.svg';
+import linkedIn from '../../../assets/svg/linkedin.svg';
+import facebook from '../../../assets/svg/square-facebook.svg';
+import twitter from '../../../assets/svg/square-x-twitter.svg';
 export default function Footer() {
   return (
     <FooterStyles>
-      <div>
+      <div className='column'>
         <h3>Get in touch with us for your service</h3>
-        <span className='svgContainer'></span>
+        <span className='svgContainer'>
+          <img src={instagram} alt='Instagram icon' />
+          <img src={linkedIn} alt='LinkedIn icon' />
+          <img src={facebook} alt='Facebook icon' />
+          <img src={twitter} alt='Twitter icon' />
+        </span>
       </div>
       <div className='column'>
         <span className='column'>
