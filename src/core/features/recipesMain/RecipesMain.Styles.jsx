@@ -1,9 +1,11 @@
 import styled from 'styled-components';
 
 export const RecipesMainStyles = styled.main`
-  padding: 64px;
+  background-color: #f8f8f8;
+  padding: 128px;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
+  min-height: 100vh;
   h1 {
     margin-top: 0px;
   }
@@ -16,5 +18,17 @@ export const RecipesMainStyles = styled.main`
       padding: 16px;
       flex: 1;
     }
+  }
+  .recipesCardContainer {
+    padding-top: 64px;
+    gap: 32px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .loadingContainer {
+    align-items: center;
+    justify-content: center;
+    margin-top: 128px;
   }
 `;
