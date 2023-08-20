@@ -5,6 +5,7 @@ import Header from './core/features/header/Header';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Home } from './screens/Home';
 import Footer from './core/features/footer/Footer';
+import { Recipes } from './screens/Recipes';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Header />
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/recipes' element={<Recipes />} />
         </Routes>
         <Footer />
       </BrowserRouter>
